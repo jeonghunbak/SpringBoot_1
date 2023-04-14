@@ -4,7 +4,7 @@ import com.cloud.boot.service.posts.PostsService;
 import com.cloud.boot.web.dto.PostsResponseDto;
 import com.cloud.boot.web.dto.PostsSaveRequestDto;
 import com.cloud.boot.web.dto.PostsUpdateRequestDto;
-import lombok.Getter;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
