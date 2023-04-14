@@ -70,6 +70,7 @@ public class PostsApiControllerTest {
 
     @Test
     public void updateTest() throws Exception {
+        //given
         Posts savePosts = postsRepository.save(Posts.builder()
                 .title("title1")
                 .content("content11")
